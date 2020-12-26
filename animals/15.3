@@ -1,0 +1,15 @@
+class StringVar:
+
+    stroka=''
+
+    def set(self,newStroka):
+        self.stroka=newStroka
+
+    def get(self):
+        return self.stroka
+
+s=StringVar()
+s.stroka='String1'
+print(s.get())
+s.set('String2')
+print(s.get())
